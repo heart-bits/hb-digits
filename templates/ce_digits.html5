@@ -1,0 +1,7 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+  <span class="digit"><?= $this->digit ?></span>
+
+<?php $this->endblock(); ?>
